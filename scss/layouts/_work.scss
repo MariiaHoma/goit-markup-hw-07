@@ -1,0 +1,25 @@
+.work{
+    background: var(--primary-white-color);
+}
+
+.work__list {
+  display: flex;
+  gap: var(--margin-right);
+}
+.work__item {
+  position: relative;
+}
+
+.work__title {
+  @include font (null, 700, 1.14, null);
+  display: flex;
+  padding: 27px;
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
