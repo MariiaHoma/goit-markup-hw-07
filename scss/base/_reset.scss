@@ -12,3 +12,20 @@ ul {
   margin: 0px;
   padding-left: 0px;
 }
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  height: auto;
+}

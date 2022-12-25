@@ -1,12 +1,14 @@
-@import './base/reset';
-@import './base/common';
-@import './base/hidden';
-
 @import './utils/variables';
 @import './utils/placeholder';
 @import './utils/mixin';
+@import './utils/hidden';
+
+@import './base/reset';
+@import './base/common';
 
 @import './components/container';
+@import './components/section';
+@import './components/modal';
 
 @import './layouts/header';
 @import './layouts/hero';
@@ -15,7 +17,6 @@
 @import './layouts/team';
 @import './layouts/client';
 @import './layouts/footer';
-@import './layouts/modal';
 
 @import './layouts/buttons';
 @import './layouts/projects';
